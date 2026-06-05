@@ -1,0 +1,31 @@
+{
+  "descricao": "Dados orbitais simulados — representa pré-processamento de satélite (MVP)",
+  "fonte": "Mock estático. Roadmap: INPE / Copernicus / Planet Labs",
+  "versao": "1.0.0-MVP",
+  "cameras": [
+    {
+      "cameraId": "CAM-001",
+      "regiao": "AM - Zona Norte — Floresta Amazônica",
+      "scoreOrbitalBase": 0.72,
+      "descricao": "Alta cobertura vegetal, risco elevado de incêndio em seca"
+    },
+    {
+      "cameraId": "CAM-002",
+      "regiao": "PR - Curitiba — Região Litoral",
+      "scoreOrbitalBase": 0.55,
+      "descricao": "Risco moderado, umidade costeira atenua detecção"
+    },
+    {
+      "cameraId": "CAM-003",
+      "regiao": "DF - Brasília — Cerrado",
+      "scoreOrbitalBase": 0.88,
+      "descricao": "Cerrado em período de estiagem — risco crítico confirmado por satélite"
+    },
+    {
+      "cameraId": "CAM-004",
+      "regiao": "MG - Belo Horizonte — Vale do Rio",
+      "scoreOrbitalBase": 0.40,
+      "descricao": "Área urbanizada, menor cobertura de vegetação inflamável"
+    }
+  ]
+}
