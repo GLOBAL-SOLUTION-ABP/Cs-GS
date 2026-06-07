@@ -116,21 +116,6 @@ flowchart TD
     S --> T([Fim do ciclo])
 ```
 
----
-
-## Aderência à rubrica do professor
-
-| Categoria da rubrica | Pontos | Requisitos atendidos | Onde aparece no projeto |
-|---|---:|---|---|
-| **Modelagem de Domínio & POO** | 20 | Classes públicas, classe privada, classes estáticas, atributos privados, herança e polimorfismo | `Domain/`, `Services/ValidacaoOrbitalSimulada.cs`, `Utils/` |
-| **Abstração e Interfaces** | 20 | Classe abstrata, interfaces e injeção de dependência manual | `AlertaAmbiental`, `Interfaces/`, `MotorAlerta`, `Program.cs` |
-| **Lógica de Fluxo, Métodos e Datas** | 15 | Menu modular, métodos de serviço, estruturas de controle e uso de `DateTime` | `Program.cs`, `MotorAlerta.cs`, entidades de domínio |
-| **Tratamento de Exceções** | 10 | Exceções específicas e fallback para falha orbital | `Exceptions/`, `MotorAlerta.cs`, `Program.cs` |
-| **Structs/Partial** | 5 | `CoordenadaGeografica` como struct e `CameraLocal` como partial class | `Domain/Structs/`, `CameraLocal.cs`, `CameraLocal.Feedback.cs` |
-| **Organização** | 30 | Pastas separadas, nomenclatura clara, README, diagrama e evidências de execução | `README.md`, `Docs/Evidencias/`, estrutura do projeto |
-
----
-
 ## Pontos técnicos destacados
 
 - **Classe abstrata:** `AlertaAmbiental`.
